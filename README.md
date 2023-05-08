@@ -4,15 +4,5 @@
 <br>
 <br>
 Part 0. 안드로이드 앱 개발 시작에 앞서<br>
-Ch 01. Kotlin 기초 ✅<br>
-       - 01. 오리엔테이션<br>
-       - 02. 함수<br>
-       - 03. 변수(val, var)<br>
-       - 04. 클래스<br>
-       - 05. 조건식<br>
-       - 06. 반복문<br>
-       - 07. 컬렉션(list, map, set)<br>
-       - 08. Null<br>
-       - 09. 타입체크와 캐스팅<br>
-       - 10. String Templates<br><br>
+Ch 01. Kotlin 기초 ✅<br><br>
 Ch 02. Kotlin 중급 ...
