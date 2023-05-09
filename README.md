@@ -11,19 +11,16 @@
 </br>
 
 ## Part 0. 안드로이드 앱 개발 시작에 앞서
-<details>
-  <summary> To Do List </summary>
-  
+
   |Chapter Num|내용|Check Done|Link|
   |:---:|:---:|:---|:---:|
   |1|**Kotlin 기초**|<ul><li>- [x] 1. 오리엔테이션 </li><li>- [x] 2. 함수 </li><li>- [x] 3. 변수(val, var </li><li>- [x] 4. 클래스 </li><li>- [x] 5. 조건식 </li><li>- [x] 6. 반복문 </li><li>- [x] 7. 컬렉션(list, map, set </li><li>- [x] 8. Null </li><li>- [x] 9. 타입체크와 캐스팅 </li><li>- [x] 10. String Template</li></ul>|[Github Repository](Chapter0/app/src/main/java/com/example/android_kotlin_lecture/Chapter_01)|
   |2|**Kotlin 중급**|<ul><li>- [x] 1. 람다 </li><li>- [x] 2. 확장함수 </li><li>- [x] 3. Scope Function </li><li>- [x] 4. 초기화 지연 </li><li>- [x] 5. Data, Sealed Class </li><li>- [x] 6. Object, Companion Object</li></ul>|[Github Repository](Chapter0/app/src/main/java/com/example/android_kotlin_lecture/Chapter_02)|
   |3|**Android 기본**|<ul><li>- [ ] 1. Android OS </li><li>- [ ] 2. Android 기본 요소 </li><li>- [ ] 3. Activity 생명주기 (1) </li><li>- [ ] 4. Activity 생명주기 (2) </li><li>- [ ] 5. 뷰 그러지는 순서 </li></ul>|[Github Repository](app/src/main/java/com/example/android_kotlin_lecture/Chapter_03)|
   |4|**Anroid 개발 환경설정**|<ul><li>- [ ] 1. Android Studio 설치 </li><li>- [ ] 2. Android Studio 살펴보기 </li><li>- [ ] 3. ktlint 적용해보기 </li><li>- [ ] 4. detekt 적용해보기</li></ul>| ❌ |
-</details>
   
 </br>
-
+<!-- 
 ## Part 1. 안드로이드 기본
 <details>
   <summary> To Do List </summary>
@@ -130,3 +127,4 @@
   |2|**쇼핑몰 앱**|<ul><li>- [ ] 1. 인트로 </li><li>- [ ] 2. 클린아키텍쳐 기반 설계하기 - 1 </li><li>- [ ] 3. 클린아키텍쳐 기반 설계하기 - 2 </li><li>- [ ] 4. Hilt 세팅하기 - 1 </li><li>- [ ] 5. Hilt 세팅하기 - 2 </li><li>- [ ] 6. Main화면 탭 구성하기 (홈, 관심, 프로필, 장바구니) </li><li>- [ ] 7. 홈화면 상단 검색바 구성하기 </li><li>- [ ] 8. 상품 정보 만들기 </li><li>- [ ] 9. 상품 정보 기반으로 mock 데이터 세팅하기 </li><li>- [ ] 10. 공용 상품 화면 만들기 </li><li>- [ ] 11. 홈 화면 상품 리스트 구성하기 - 1 </li><li>- [ ] 12. 홈 화면 상품 리스트 구성하기 - 2 </li><li>- [ ] 13. 홈 화면 배너 구성하기 - 1 </li><li>- [ ] 14. 홈 화면 배너 구성하기 - 2 </li><li>- [ ] 15. 홈 화면 가로 스크롤 화면 구성하기 </li><li>- [ ] 16. 홈 화면 랭킹 리스트 화면 구성하기 </li><li>- [ ] 17. 홈 화면 카테고리 화면 구성하기 - 1 </li><li>- [ ] 18. 홈 화면 카테고리 화면 구성하기 - 2 </li><li>- [ ] 19. 홈 화면 컴포넌트화로 리팩토링 하기 - 1 </li><li>- [ ] 20. 홈 화면 컴포넌트화로 리팩토링 하기 - 2 </li><li>- [ ] 21. 홈 화면 컴포넌트화로 리팩토링 하기 - 3 </li><li>- [ ] 22. 상품 상세화면 만들기 - 1 </li><li>- [ ] 23. 상품 상세화면 만들기 - 2 </li><li>- [ ] 24. 검색 화면 구현하기 - 1 </li><li>- [ ] 25. 검색 화면 구현하기 - 2 </li><li>- [ ] 26. 검색 화면 필터링 기능 추가 - 1 </li><li>- [ ] 27. 검색 화면 필터링 기능 추가 - 2 </li><li>- [ ] 28. 구글 로그인 연동하기 - 1 </li><li>- [ ] 29. 구글 로그인 연동하기 - 2 </li><li>- [ ] 30. 카카오 로그인 연동하기 </li><li>- [ ]  31. 좋아요 기능 구현하기 </li><li>- [ ]  32. 관심 화면 구현하기 </li><li>- [ ] 33. 장바구니 넣기 기능 구현하기 </li><li>- [ ]  34. 딥링크 구성하기 - 1 </li><li>- [ ] 35. 딥링크 구성하기 - 2 </li><li>- [ ] 36. 딥링크 구성하기 - 3 </li><li>- [ ] 37. 프로필 화면 구성하기 </li><li>- [ ] 38. 결제 내역 개발하기 - 1 </li><li>- [ ] 39. 결제 내역 개발하기 - 2 </li><li>- [ ] 40. 결제하기 기능 구현하기 </li><li>- [ ] 41. 테스트 환경 세팅하기 </li><li>- [ ] 42. 테스트 코드 작성하기 - 검색 기능 </li><li>- [ ] 43. 테스트 코드 작성하기 - 결제 </li><li>- [ ] 44. 안드로이드 프레임워크 분석툴 알아보기 </li><li>- [ ] 45. Firebase를 통해 크래시 수집하기 - 1 </li><li>- [ ] 46. Firebase를 통해 크래시 수집하기 - 2 </li><li>- [ ] 47. 플레이 스토어에 앱 출시하기 </li><li>- [ ] 48. 구글 광고 붙이기 - 1 </li><li>- [ ] 49. 구글 광고 붙이기 - 2 </li><li>- [ ] 50. 테스트 코드 작성하기 - 결제 </li></ul>|[Github Repository](app/src/main/java/com/example/android_kotlin_lecture/Chapter_01)|
 
 </details>
+-->
