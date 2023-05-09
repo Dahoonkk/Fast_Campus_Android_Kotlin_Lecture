@@ -4,7 +4,7 @@ package com.example.android_kotlin_lecture.Chapter_01
 
 fun main() {
     val a = 10
-    val name = "hello"
+    val name = "hello nice to meet you"
     val isHigh = true
 
     println(a.toString() + name + isHigh.toString()) // 자바의 방식
